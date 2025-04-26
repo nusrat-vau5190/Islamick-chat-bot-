@@ -1,6 +1,6 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "Obot",
+  name: "Nobab",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "Mod by John Lester",
@@ -36,7 +36,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Prefix Kya Tera Bap LagaYega? Pehle Prefix Laga Fir Likh Sim", threadID);
    };
   
-   if ((event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
+   if ((event.body.toLowerCase() == "Hi.Hlw.হাই.হ্যালো") || (event.body.toLowerCase() == "...") ||(event.body.toLowerCase() == "...") || (event.body.toLowerCase() == "...")) {
      return api.sendMessage("এত হাই-হ্যালো চুদাছ কেনো বোকাচোদা..!🍆⛏️🐸🤣", threadID);
    };
 
